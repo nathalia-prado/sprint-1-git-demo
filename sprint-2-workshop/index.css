@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-bottom: 134px;
+    font-family: 'Anton', sans-serif;;
+}
+
+p {
+    font-size: 20pt;
+}
+ .gray-text {
+    color: gray;
+ }
+
+ #number {
+    background-color: blueviolet;
+ }
+
+ @media all and (max-width: 500px) {
+    body {
+        background-color: brown;
+    }
+ }
+
+ @media (orientation: landscape) and (min-width: 500px) {
+    .gray-text {
+        color: blue;
+    }
+
+    .link {
+        font-size: 30pt;
+    }
+ }
+ 
+ @media (orientation: portrait) {
+    .gray-text {
+        color: black;
+        font-size: 50pt;
+    }
+
+    .link {
+        font-size: 30pt;
+    }
+ }
